@@ -74,6 +74,14 @@
         <groupId>org.scala-tools</groupId>
         <artifactId>maven-scala-plugin</artifactId>
         <version>2.15.0</version>
+              <configuration>
+                <launchers>
+                   <launcher>
+                       <id>foo</id>
+                       <mainClass>com.meddoxdev.edu.App</mainClass>
+                 </launcher>
+                </launchers>
+              </configuration>
         <executions>
           <execution>
             <goals>
